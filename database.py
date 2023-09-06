@@ -22,7 +22,6 @@ class DataBase:
         # TODO: если файл пустой - записать филды, если нет, проверить на соответствие, если его нет -> удалить все к
         #  чертям)
 
-        # TODO: проверить изменение нескольких объектов (особенно если у объекта индекс 0)
         with open(self.name, 'w') as file:
             string = 'id'
             for field_name in self.sorted_all_fields:
